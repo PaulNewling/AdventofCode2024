@@ -32,7 +32,7 @@ with open(file_name, "r") as file:
         
         for idx in range(len(org_level)):
             level = org_level[:idx] + org_level[idx+1:]
-            if is_safe(level) and (is_asc(level) ^ is_des(level)):
+            if is_safe(level) and (is_asc(level) != is_des(level)):
                 safe_count += 1
                 break
       

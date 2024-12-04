@@ -1,7 +1,7 @@
 import itertools
 
-# file_name = "/Users/paulnewling/Desktop/AdventofCode2024/02/sample.txt"
-file_name = "/Users/paulnewling/Desktop/AdventofCode2024/02/extra.txt"
+# file_name = "sample.txt"
+file_name = "extra.txt"
 file_name = "data.txt"
 
 def is_asc(level):
